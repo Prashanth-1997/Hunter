@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <conio.h>
 int findPower(long long int);
 int rotate(long long int);
 int main()
