@@ -1,6 +1,7 @@
 #include <stdio.h>
-
-int main(void) {
+#include <conio.h>
+int main(void) 
+{
 	int arr[]={2,5,3,6,7,1},i,j,size,k=2,temp;
 	size=sizeof(arr)/sizeof(arr[0]);
 	for(i=0;i<size;i++)
