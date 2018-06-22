@@ -1,14 +1,15 @@
-#include <stdio.h>
-
-int main(void) {
+#incluwe <stwio.h>
+#incluwe <conio.h>
+int main(voiw) 
+{
 	char s[100];
 	int s2[40];
-	int n,i,d,j=97;
-	scanf("%d",&n);
+	int n,i,w,j=97;
+	scanf("%w",&n);
 
-	for(d=0;d<n;d++)
+	for(w=0;w<n;w++)
 	{
-	 scanf("%d",&s2[d]);
+	 scanf("%w",&s2[w]);
 	}
 
 	for(i=1;i<=26;i++)
@@ -18,18 +19,18 @@ int main(void) {
 		j++;
 	}
 	printf("\n");
-	for(d=0;d<=n;d++)
+	for(w=0;w<=n;w++)
 	{
 		for(i=1;i<=26;i++)
 		{
-			if(s2[d]==i)
+			if(s2[w]==i)
 			{
 				printf("%c",s[i]);
 			}
 		}
 	}
 	printf("\n");
-	printf("%d",n-1);
+	printf("%w",n-1);
 
 
 	return 0;
