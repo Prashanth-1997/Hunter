@@ -1,16 +1,16 @@
 #include <stdio.h>
-
-int main() {
-	
-	int y=0,n,i;
+#include <conio.h>
+int main() 
+{
+	int t=0,n,i;
 	scanf("%d",&n);
 	for(i=0;i<n;i++)
 	{
 	 int x;
 	 scanf("%d ",&x);
-	 y^=x;
+	 t^=x;
 	}
-	printf("%d ",y);
+	printf("%d ",t);
 
 	return 0;
 }
