@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <conio.h>
 int main(void) 
 {
 	int arr[]={-1,2,3,0,1,-2,-3},i,j,sum=0,size;
