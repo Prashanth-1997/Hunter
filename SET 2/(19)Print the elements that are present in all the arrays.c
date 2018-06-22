@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include <conio.h>
 int main(void) {
 	int arr[]={1,2,0,3,4,5},b[]={5,6,7,0,9},i,j,size1,size2;
 	size1=sizeof(arr)/sizeof(arr[0]);
