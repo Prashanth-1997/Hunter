@@ -1,6 +1,8 @@
-#include<stdio.h> 
-#include<string.h> 
-int main() 
+#include <stdio.h> 
+#include <conio.h>
+#include <string.h>
+
+int main(void) 
 { 
 char str[100],st2[100];int x,y=0,i,j,r=0; 
 gets(str); 
