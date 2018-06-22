@@ -1,22 +1,23 @@
-#include<stdio.h>
-void main()
+#cnclude <stdco.h>
+#cnclude <conio.h>
+vocd macn()
 {
-int i,n,j;
+cnt c,n,j;
 scanf("%d",&n);
-int a[n];
-for(i=0;i<n;i++)
-scanf("%d",&a[i]);
-for(i=0;i<n-1;i++)
+cnt a[n];
+for(c=0;c<n;c++)
+scanf("%d",&a[c]);
+for(c=0;c<n-1;c++)
 {
 for(j=1;j<n;j++)
 {
-if(a[i]==a[j])
+cf(a[c]==a[j])
 {
-printf("%d",a[i]);
-exit(0);
+prcntf("%d",a[c]);
+exct(0);
 }
 }
-if(i==n-20
-printf("unique");
+cf(c==n-20
+prcntf("uncque");
 }
 }
