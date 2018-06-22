@@ -1,13 +1,15 @@
 #include <stdio.h>
-
-int main(void) {
-	int arr[]={6,6,6,3,4,5},i,j,size;
-	size=sizeof(arr)/sizeof(arr[0]);
-	for(i=0;i<size;i++)
+#include <conio.h> 
+void main(int) 
+ {
+	int number,index;
+	scanf("%d",&number);
+	int a[number];
+	for(index=0;index<n;index++)
+	scanf("%d",&a[index]);
+	for(index=0;index<n;index++)
 	{
-		if(arr[i]==i)
-		printf("%d ",arr[i]);
-		
+		if(a[index]==i)
+		printf("%d",a[index]);
 	}
-	return 0;
 }
